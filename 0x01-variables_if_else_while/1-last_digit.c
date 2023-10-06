@@ -17,7 +17,7 @@ int main(void)
 	lastOfN = n % 10;
 
 	if (lastOfN == 0)
-		printf("Last digit of %d is %d and is 0\n", n, lastOfN)
+		printf("Last digit of %d is %d and is 0\n", n, lastOfN);
 	else if (lastOfN > 5)
 		printf("Last digit of %d is %d and is grater than 5\n", n, lastOfN);
 	else
