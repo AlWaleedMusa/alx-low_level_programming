@@ -8,7 +8,7 @@
  * Return: 0 Always (success)
  */
 
-int main(voide)
+int main(void)
 {
 	int n;
 	int lastOfN;
