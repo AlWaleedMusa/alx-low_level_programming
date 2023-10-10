@@ -31,13 +31,14 @@ void print_times_table(int n)
 					_putchar((out / 100) + '0');
 					_putchar(((out / 10)) % 10 + '0');
 				}
-				else if (out <= 99 && out >= 100)
+				else if (out <= 99 && out >= 10)
 				{
 					_putchar((out / 10) + '0');
 				}
 				_putchar((out % 10) + '0');
 				mul++;
 			}
+			mul = 1
 			num++;
 			_putchar('\n');
 		}
