@@ -22,18 +22,17 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				out = num * mul;
-				if (out > 9)
+				if (out <= 9)
 				{
-					_putchar((out / 10) + '0');
-					_putchar((out % 10) + '0');
+					_putchar(' ');
 				}
 				else
-					_putchar(out);
+					_putchar((out / 10) + '0');
+				_putchar((out % 10) + '0');
 				mul++;
 			}
-			_putchar('\n');
-			mul = 1;
 			num++;
 		}
+		_putchar('\n');
 	}
 }
