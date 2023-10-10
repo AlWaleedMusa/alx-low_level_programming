@@ -6,7 +6,7 @@
  */
 
 int main(void)
-{	
+{
 	_putchar(0x5F);
 	_putchar(0x70);
 	_putchar(0x75);
@@ -16,6 +16,5 @@ int main(void)
 	_putchar(0x61);
 	_putchar(0x72);
 	_putchar('\n');
-
 	return (0);
 }
