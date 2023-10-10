@@ -9,8 +9,9 @@
 int main(void)
 {
 	long num1, num2, sum;
+	int i = 0;
 
-	for (int i = 0; i < 50; i++)
+	while (i < 50)
 	{
 		sum = num1 + num2;
 		printf("%lu", sum);
@@ -26,6 +27,7 @@ int main(void)
 		{
 			printf(", ");
 		}
+		i++;
 	}
 	return (0);
 }
