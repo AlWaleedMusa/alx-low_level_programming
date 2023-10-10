@@ -15,7 +15,7 @@ int main(void)
 
 	for (num = 0; num < max; num++)
 	{
-		if (num % 3 = 0 || num % 5 = 0)
+		if (num % 3 == 0 || num % 5 == 0)
 			sum += num;
 	}
 	printf("%i", sum);
