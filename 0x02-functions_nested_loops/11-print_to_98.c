@@ -33,6 +33,6 @@ void print_to_98(int n)
 				printf("%i", i);
 			i--;
 		}
-		printf("\n")
+		printf("\n");
 	}
 }
