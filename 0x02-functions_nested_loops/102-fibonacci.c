@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long num1, num2, sum;
+	unsigned long num1 = 0, num2 = 1, sum;
 	int i = 0;
 
 	while (i < 50)
