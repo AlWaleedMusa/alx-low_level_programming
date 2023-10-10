@@ -7,7 +7,7 @@
 
 int main(void)
 {
-
+	
 	_putchar(0x5F);
 	_putchar(0x70);
 	_putchar(0x75);
