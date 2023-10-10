@@ -29,7 +29,7 @@ void print_times_table(int n)
 					_putchar(out);
 				mul++;
 			}
-			_putchar('\n'):
+			_putchar('\n');
 			mul = 1;
 		}
 		num++;
