@@ -11,7 +11,7 @@ void times_table(void)
 	int m = 1;
 	int o;
 
-	while (n <= 9)
+	while (n < 10)
 	{
 		_putchar('0');
 		while (m <= 9)
@@ -29,7 +29,9 @@ void times_table(void)
 				_putchar((o / 10) + '0');
 			}
 			_putchar((o % 10) + '0');
+			m++
 		}
+		n++'
 		m = 1;
 		_putchar('\n');
 	}
