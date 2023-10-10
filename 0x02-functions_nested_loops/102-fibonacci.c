@@ -9,12 +9,13 @@
 int main(void)
 {
 	int max = 50;
-	int i = 0;
-	int sum = 0;
+	int i;
+	int sum = 1;
 
-	for (i = 0; i <= max; i++)
+	for (i = 1; i <= max; i++)
 	{
-		sum += i - 1;
+		int previ = i - 1;
+		sum += previ;
 		printf("%i, ", sum);
 	}
 	return (0);
