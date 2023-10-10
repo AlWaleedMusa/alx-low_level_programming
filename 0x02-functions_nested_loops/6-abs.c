@@ -3,11 +3,12 @@
 
 /**
  * _abs - is a fucntion that computes the absolute value of an integer.
- * @int: is the parameter which is an integer passed to the fucntion.
- * Return: it will do the magic and return same parameter as a result.
+ * @n: is the parameter which is an integer passed to the fucntion.
+ * Return: r will be the returned value.
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	return (abs(int));
+	int r = abs(n);
+	return (r);
 }
