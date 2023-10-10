@@ -19,6 +19,8 @@ void print_times_table(int n)
 			_putchar('0');
 			while (mul <= n)
 			{
+				_putchar(',');
+				_putchar(' ');
 				out = num * mul;
 				if (out > 9)
 				{
