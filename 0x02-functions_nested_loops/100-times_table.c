@@ -38,7 +38,7 @@ void print_times_table(int n)
 				_putchar((out % 10) + '0');
 				mul++;
 			}
-			mul = 1
+			mul = 1;
 			num++;
 			_putchar('\n');
 		}
