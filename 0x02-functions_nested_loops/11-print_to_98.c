@@ -23,8 +23,7 @@ void print_to_98(int n)
 		}
 		_putchar('\n');
 	}
-
-	if (i >= 98)
+	else
 	{
 		while (i >= 98)
 		{
