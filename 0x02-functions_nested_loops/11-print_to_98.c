@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - is a function that take input and print all number to 98.
@@ -14,21 +15,10 @@ void print_to_98(int n)
 	{
 		while (i <= 98)
 		{
-			if (i > 9)
-			{
-				_putchar((i / 10) + '0');
-				_putchar((i % 10) + '0');
-				_putchar(',');
-				_putchar(' ');
-				_putchar('\n');
-			}
+			if (i != n)
+				printf("%i, ", i);
 			else
-			{
-				_putchar(i);
-				_putchar(',');
-				_putchar(' ');
-				_putchar('\n');
-			}
+				printf("%i", i);
 			i++;
 		}
 	}
@@ -36,21 +26,10 @@ void print_to_98(int n)
 	{
 		while (i >= 98)
 		{
-			if (i < 9)
-			{
-				_putchar(i);
-				_putchar(',');
-				_putchar(' ');
-				_putchar('\n');
-			}
+			if (i != n)
+				printf("%i, ", i);
 			else
-			{
-				_putchar((i / 10) + '0');
-				_putchar((i % 10) + '0');
-				_putchar(',');
-				_putchar(' ');
-				_putchar('\n');
-			}
+				printf("%i", i);
 			i--;
 		}
 	}
