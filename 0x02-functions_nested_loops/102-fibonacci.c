@@ -8,15 +8,24 @@
 
 int main(void)
 {
-	int max = 50;
-	int i;
-	int sum = 1;
+	long num1, num2, sum;
 
-	for (i = 1; i <= max; i++)
+	for (int i = 0; i < 50; i++)
 	{
-		int previ = i - 1;
-		sum += previ;
-		printf("%i, ", sum);
+		sum = num1 + num2;
+		printf("%lu", sum);
+
+		num1 = num2;
+		num2 = sum;
+
+		if (i == 49)
+		{
+			printf("\n");
+		}
+		else
+		{
+			printf(", ");
+		}
 	}
 	return (0);
 }
