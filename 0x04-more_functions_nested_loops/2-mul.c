@@ -2,8 +2,9 @@
 
 /**
  * mul - is a function that multiplies to integers.
- * @a && @b: are the parameters passed to the function.
- * Retunr: the result of the multiplication.
+ * @a:is the first paramenter passed to the function.
+ * @b: is the second paramater passed to the function.
+ * Return: the result of the multiplication.
  */
 
 int mul(int a, int b)
