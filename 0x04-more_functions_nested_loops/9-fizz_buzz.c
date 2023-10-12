@@ -3,12 +3,14 @@
 /**
  * main - entry point.
  *
- * Return: always 0 (Success).
+ * Return: 0 Always (Success).
  */
 
 int main(void)
 {
-	for (int i = 1; i <= 100; i++)
+	int i = 0;
+
+	while (i <= 100)
 	{
 		if (i % 3 == 0)
 			printf("Fizz ");
@@ -18,6 +20,7 @@ int main(void)
 			printf("FizzBuzz ");
 		else
 			printf("%i ", i);
+		i++;
 	}
 	return (0);
 }
