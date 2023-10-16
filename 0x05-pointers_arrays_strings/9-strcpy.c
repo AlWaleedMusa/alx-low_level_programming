@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _strcpy -  a function that copies the string pointed to.
+ * @dest: first parameter passed to the function.
+ * @src: second parameter passed to the function.
+ * Return: char
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int i = 0;
+
+	while (src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	return (dest);
+}
