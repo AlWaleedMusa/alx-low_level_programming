@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * print_rev - a fuction that print a string backwards.
+ * @s: is the parameter passed to the function.
+ * Return: Void.
+ */
+
+void print_rev(char *s)
+{
+	int len = 0;
+
+	while (s[len] != '\0')
+		len++;
+
+	for (int i = len; i >= 0; i--)
+	{
+		_putchar(s[i] + 0);
+	}
+	_putchar('\n');
+}
