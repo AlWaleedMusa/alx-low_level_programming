@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strcmp - a function that compare 2 strings.
- * @s1: is the first parameter passed to the function.
- * @s2: is the second parameter passed to the function.
- * Return: int 0 or 1. 
+ * _strcmp - a function that compare 2 strings
+ * @s1: is the first parameter passed to the function
+ * @s2: is the second parameter passed to the function
+ * Return: int 0 or 1
 */
 
 int _strcmp(char *s1, char *s2)
