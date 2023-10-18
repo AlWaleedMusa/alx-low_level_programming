@@ -2,9 +2,9 @@
 
 /**
  * _strncpy - Write a function that copies a string.
- * @dest: 1st parameted passed to the function.
+ * @dest: 1st parameter passed to the function.
  * @src: source string to copy from.
- * @n: number of charecters to copy.
+ * @n: number of characters to copy.
  * Return: pointer to a char.
  */
 
