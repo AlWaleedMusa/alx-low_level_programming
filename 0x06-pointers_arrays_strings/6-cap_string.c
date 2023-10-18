@@ -6,7 +6,7 @@
  * Return: pointer to Char.
 */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	// NOT DONE //
 }
