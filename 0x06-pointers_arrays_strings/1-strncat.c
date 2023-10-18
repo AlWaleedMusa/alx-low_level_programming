@@ -4,7 +4,7 @@
  * _strncat - a function that concatenates two strings using n.
  * @dest: first parameter passed to the function.
  * @src: second parameter passed to the function.
- * @n: third parameted passed to the function.
+ * @n: third parameter passed to the function.
  * Return: a pointer to a char.
  */
 
