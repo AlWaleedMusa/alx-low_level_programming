@@ -2,7 +2,7 @@
 
 /**
  * factorial - a function that give factorial of a givin number.
- * @s: the number passed to the function.
+ * @n: the number passed to the function.
  * Return: an integer.
 */
 
