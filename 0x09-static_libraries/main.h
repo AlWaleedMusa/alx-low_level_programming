@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <stdio.h>
 #include <ctype.h>
 #ifndef FILE_MAIN
