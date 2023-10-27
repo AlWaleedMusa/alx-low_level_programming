@@ -11,7 +11,7 @@ bool is_number(char *s);
  * Return: 0 Always (Success).
 */
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i = 1;
 	int sum = 0;
