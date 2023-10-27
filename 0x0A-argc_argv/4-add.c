@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
- /**
-  * is_number - a function that check if char is a number or not.
-  * @s: parameter passed to the function.
-  * Return: true if number, false if not.
- */
-
 bool is_number(char *s);
 
 /**
@@ -47,6 +41,12 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
+
+/**
+* is_number - a function that check if char is a number or not.
+* @s: parameter passed to the function.
+* Return: true if number, false if not.
+*/
 
 bool is_number(char *s)
 {
