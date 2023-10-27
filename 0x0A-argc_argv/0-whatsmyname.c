@@ -2,7 +2,8 @@
 
 /**
  * main - entry point.
- * 
+ * @argc: number or arguments passed.
+ * @argv: pointer to array of chars.
  * Return: Always 0 (Success)
 */
 

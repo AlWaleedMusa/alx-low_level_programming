@@ -6,7 +6,8 @@ bool is_number(char *s);
 
 /**
  * main - entry point.
- * 
+ * @argc: number or arguments passed.
+ * @argv: pointer to array of chars.
  * Return: 0 Always (Success).
 */
 
