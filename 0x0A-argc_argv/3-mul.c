@@ -8,7 +8,7 @@
  * Return: 0 Always (Success).
  */
 
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int mul = 1;
 	int i = 1;
