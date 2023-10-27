@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 		amount -= _1cent * 1;
 	}
 	sum = _25cents + _10cents + _5cents + _2cents + _1cent;
-	printf("%d", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
