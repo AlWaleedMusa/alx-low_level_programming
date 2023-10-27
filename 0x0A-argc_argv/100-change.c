@@ -3,6 +3,8 @@
 
 /**
  * main - entry point.
+ * @argc: number of arguments passed to main.
+ * @argv: point to an array of chars.
  * Return: 0 Always (Success).
 */
 
