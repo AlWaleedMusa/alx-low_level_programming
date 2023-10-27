@@ -54,12 +54,9 @@ bool is_number(char *s)
 	{
 		if (*s < '0' || *s > '9')
 		{
-			return false;
-		}
-		else
-		{
-			return true;
+			return (false);
 		}
 		s++;
 	}
+	return (true);
 }
