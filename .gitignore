@@ -1,2 +1,4 @@
 testing_code/
 *.json
+/0x0B-malloc_free/main.c
+/0x0B-malloc_free/test.exe
