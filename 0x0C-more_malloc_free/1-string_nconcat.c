@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		s1 = "";
-	else if (s2 == NULL)
+	if (s2 == NULL)
 		s2 = "";
 
 	if (num < 0)
@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	s1_len = strlen(s1);
 	s2_len = strlen(s2);
 
-	if (num >= s2_len)
+	if (num >= s2_len && s2_len != 0)
 	{
 		num = s2_len;
 	}
