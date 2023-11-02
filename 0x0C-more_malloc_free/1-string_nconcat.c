@@ -8,6 +8,7 @@
  * @n: number of char to pass from string 2.
  * Return: pointer to a char.
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int s1_len;
@@ -21,7 +22,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else if (s2 == NULL)
 		s2 = "";
 
-	if (num < 0)
+	if (n < 0)
 		return (NULL);
 
 	s1_len = strlen(s1);
