@@ -1,16 +1,6 @@
 #include "main.h"
 #include <string.h>
 
-int main(void)
-{
-    char *concat;
-
-    concat = string_nconcat("Best ", "School !!!", 6);
-    printf("%s\n", concat);
-    free(concat);
-    return (0);
-}
-
 /**
  * string_nconcat - a function that concat string 1 to n of string 2.
  * @s1: first string.
