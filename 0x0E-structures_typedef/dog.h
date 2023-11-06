@@ -6,7 +6,7 @@
  * @name: First member
  * @age: Second member
  * @owner: Third member
- * Description: name will be the name of the dog, age is the age of the dog in float numbers, owner is the name of the dog's owner
+ * Description: name dog's name, age is dog's age, owner is dog's owner.
  */
 
 struct dog
