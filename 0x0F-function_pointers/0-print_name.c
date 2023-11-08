@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function_pointers.h"
 
 /**
  * printNow - a function pointed 'to' that print name.
