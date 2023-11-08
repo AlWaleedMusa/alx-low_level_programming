@@ -1,5 +1,14 @@
 #include "function_pointers.h"
 
+
+int main(void)
+{
+    print_name("Bob", printNow);
+    printf("\n");
+    return (0);
+}
+
+
 /**
  * printNow - a function pointed 'to' that print name.
  * @str: the string passed to the function.
@@ -9,7 +18,7 @@ void printNow(char *str)
 {
 	while (*str)
 	{
-		printf("%c", *str);
+		_putchar(*str);
 		str++;
 	}
 }
@@ -22,6 +31,6 @@ void printNow(char *str)
 */
 void print_name(char *name, void (*f)(char *))
 {
-	f = printName;
+	f = printNow;
 	f(name);
 }
