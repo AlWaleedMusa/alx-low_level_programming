@@ -1,5 +1,11 @@
 #include "variadic_functions.h"
 
+int main(void)
+{
+    print_all("ceiaes", 'B', 3, "stSchool");
+    return (0);
+}
+
 /**
  * print_all - print all format passed 
  * @format: type of argument passed
@@ -8,10 +14,8 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char ch;
 	char *s;
-	int x;
-	float f;
+	char *comma = "";
 	va_list args;
 	va_start(args, format);
 
@@ -20,22 +24,22 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 		case 'c':
-			ch = va_arg(args, int);
-			printf("%c ", ch);
+			printf("%s%c", comma, va_arg(args, int));
 			break;
 		case 'i':
-			x = va_arg(args, int);
-			printf("%d ", x);
+			printf("%s%d", comma, va_arg(args, int));
 			break;
 		case 'f':
-			f = va_arg(args, double);
-			printf("%f ", f);
+			printf("%s%f", comma, va_arg(args, double));
 			break;
 		case 's':
 			s = va_arg(args, char *);
-			printf("%s ", s);
+			if(!s)
+				s = "(nil)";
+			printf("%s%s", comma, s);
 			break;
 		}
+		comma = ", ";
 		i++;
 	}
 	printf("\n");
