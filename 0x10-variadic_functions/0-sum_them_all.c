@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - a funtion that sum all inputs.
- * @n: number of args passed to the funtion.
+ * sum_them_all - a function that sum all inputs.
+ * @n: number of args passed to the function.
  * Return: int.
  */
 
