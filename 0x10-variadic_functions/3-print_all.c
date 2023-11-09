@@ -1,11 +1,5 @@
 #include "variadic_functions.h"
 
-int main(void)
-{
-    print_all("ceiaes", 'B', 3, "stSchool");
-    return (0);
-}
-
 /**
  * print_all - print all format passed 
  * @format: type of argument passed
