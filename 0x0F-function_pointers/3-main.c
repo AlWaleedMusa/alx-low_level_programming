@@ -2,6 +2,8 @@
 
 /**
  * main - entry point.
+ * @argc: number of arguments pass in command line.
+ * @argv: pointer to array of the arguments.
  * Return: (0) always (Success)
 */
 
@@ -34,7 +36,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	r = f(num1,num2);
+	r = f(num1, num2);
 
 	printf("%d\n", r);
 	return (0);
