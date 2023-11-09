@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		ch = va_arg(args, char *);
 		if (!ch)
 		{
-			ch = "(nil)";	
+			ch = "(nil)";
 		}
 		if (!separator)
 		{
