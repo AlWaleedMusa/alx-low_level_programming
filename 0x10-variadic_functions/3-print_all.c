@@ -11,6 +11,7 @@ void print_all(const char * const format, ...)
 	char *s;
 	char *comma = "";
 	va_list args;
+
 	va_start(args, format);
 
 	if (format)
@@ -30,7 +31,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				s = va_arg(args, char *);
-				if(!s)
+				if (!s)
 					s = "(nil)";
 				printf("%s%s", comma, s);
 				break;
