@@ -1,7 +1,9 @@
 #include "lists.h"
 
 /**
- * pop_listint - 
+ * pop_listint - remove the head list on a list.
+ * @head: list passed to the function.
+ * Return: an int (value at the removed list).
 */
 
 int pop_listint(listint_t **head)
