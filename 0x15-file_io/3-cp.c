@@ -8,7 +8,7 @@
  * Return: nothing.
  */
 
-void err_check(int file_from, int file_to, char *argv)
+void err_check(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
@@ -30,7 +30,7 @@ void err_check(int file_from, int file_to, char *argv)
  * Return: Always 0 (Success).
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int file_from, file_to, close_err;
 	ssize_t chars_num, wr_f;
