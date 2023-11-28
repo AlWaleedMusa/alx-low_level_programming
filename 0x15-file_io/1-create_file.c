@@ -30,7 +30,7 @@ int create_file(const char *filename, char *text_content)
 	}
 
 	let_num = strlen(text_content);
-	f_wr - write(f_ptr, text_content, let_num);
+	f_wr = write(f_ptr, text_content, let_num);
 	if (f_wr == -1)
 	{
 		return (-1);
