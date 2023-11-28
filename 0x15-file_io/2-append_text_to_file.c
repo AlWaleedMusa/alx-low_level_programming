@@ -22,10 +22,6 @@ int append_text_to_file(const char *filename, char *text_content)
 	{
 		length = strlen(text_content);
 	}
-	else
-	{
-		return (-1);
-	}
 
 	op = open(filename, O_WRONLY | O_APPEND);
 	wr = write(op, text_content, length);
