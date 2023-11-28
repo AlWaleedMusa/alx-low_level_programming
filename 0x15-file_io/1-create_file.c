@@ -3,7 +3,7 @@
 /**
  * create_file - create a new file.
  * @filename: name of the file to create.
- * @rtext_content: text to put in the file after creating.
+ * @text_content: text to put in the file after creating.
  * Return: 1 if success -1 if not success.
 */
 
